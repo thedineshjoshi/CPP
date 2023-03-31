@@ -3,7 +3,8 @@
 using namespace std;
 int main()
 {
-    int temp,*ptr;
+    int temp;
+    int *ptr=new int;
     for(int i=0;i<2;i++)
     {
     cout<<"Enter the value of "<<i+1<<" place : ";
